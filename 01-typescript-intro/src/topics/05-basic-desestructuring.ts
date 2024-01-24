@@ -28,10 +28,15 @@ const { song:anotherSong, songDuration:duration, details } = audioPlayer;
 const { author } = details; 
 
 
-console.log('Song: ', anotherSong );
-console.log('Duration: ', duration );
-console.log('Author: ', author );
+// console.log('Song: ', anotherSong );
+// console.log('Duration: ', duration );
+// console.log('Author: ', author );
 // console.log('Author: ', audioPlayer.details.author );
+
+//Desestructuracion de arreglos
+
+const [ , , Trunks ]: string[] = ['Goku', 'Vegueta', 'Trunks'];
+console.error('Personaje 3:', Trunks );
 
 
 
